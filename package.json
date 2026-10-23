@@ -1,0 +1,51 @@
+{
+  "name": "@alekstar79/tree-store",
+  "description": "Vue 3 + AG Grid Enterprise Tree Data implementation with a highly performant TreeStore",
+  "author": "Aleksey Tarasenko <alekstar79@yandex.ru>",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekstar79/tree-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alekstar79/tree-store/issues"
+  },
+  "homepage": "https://github.com/alekstar79/tree-store#readme",
+  "keywords": [
+    "vue",
+    "typescript",
+    "ag-grid",
+    "tree-data",
+    "vite",
+    "vitest"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:perf": "vitest run tests/performance.spec.ts"
+  },
+  "dependencies": {
+    "ag-grid-community": "^32.3.9",
+    "ag-grid-enterprise": "^32.3.9",
+    "ag-grid-vue3": "^32.3.9",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0",
+    "vitest": "^1.6.0",
+    "vue-tsc": "^2.0.19"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
